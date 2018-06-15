@@ -10,7 +10,7 @@ namespace Lab_07_Collections.Classes
     }
 
     /// <summary>
-    /// associates suit with a number
+    /// associates card suit with a number
     /// </summary>
     public enum SuitNum
     {

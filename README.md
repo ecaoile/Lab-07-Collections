@@ -1,5 +1,5 @@
 # Lab-07-Collections
- CODE: Collections for Code Fellows 401 C#/.NET course
+ CODE: Collections assignment for Code Fellows 401 C#/.NET course
  
 **Author**: Earl Jay Caoile <br />
 **Version**: 1.0.0

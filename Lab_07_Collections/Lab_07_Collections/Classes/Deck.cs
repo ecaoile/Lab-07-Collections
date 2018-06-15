@@ -5,6 +5,10 @@ using System.Text;
 
 namespace Lab_07_Collections.Classes
 {
+    /// <summary>
+    /// interface for holding a deck of card objects
+    /// </summary>
+    /// <typeparam name="T">generic type</typeparam>
     public class Deck<T> : IEnumerable
     {
         T[] deck = new T[15];
@@ -48,7 +52,6 @@ namespace Lab_07_Collections.Classes
                 return false;
             }
             return false;
-
         }
 
         /// <summary>
@@ -83,6 +86,10 @@ namespace Lab_07_Collections.Classes
             return false;
         }
 
+        /// <summary>
+        /// some voodoo that we need to do to associate the cards with numbers
+        /// </summary>
+        /// <returns>a bunch of card objects</returns>
         public IEnumerator<T> GetEnumerator()
         {
             for (int i = 0; i < count; i++)
