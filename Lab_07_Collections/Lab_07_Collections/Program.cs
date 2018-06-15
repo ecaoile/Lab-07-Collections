@@ -52,6 +52,10 @@ namespace Lab_07_Collections
             Console.ReadKey();
         }
 
+        /// <summary>
+        /// displays the current set of cards, shuffles them, and then displays them again
+        /// </summary>
+        /// <param name="myDeck">the deck to deal</param>
         public static void Deal(Deck<Card> myDeck)
         {
             Console.WriteLine("\nHere's your deck of cards!");
@@ -62,6 +66,10 @@ namespace Lab_07_Collections
             Show(myDeck);
         }
 
+        /// <summary>
+        /// displays the current deck of cards
+        /// </summary>
+        /// <param name="myDeck"></param>
         public static void Show(Deck<Card> myDeck)
         {
             int count = 1;
